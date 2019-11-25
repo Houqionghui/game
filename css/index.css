@@ -36,15 +36,18 @@ html{
 	background: url(../img/context.png) no-repeat;
 	background-size: 100% 100%;
 }
-.imgse img{
-	width: 80%;
-	height: 30%;
-	display: block;
-	margin: 0 auto;
+.imgse{
 	position: absolute;
 	top: 90px;
 	left: 0;
 	right: 0;
+}
+.imgse img{
+	width: 6rem;
+	height: 5rem;
+	display: block;
+	margin: 0 auto;
+
 }
 .mission .rule{
 	box-sizing: border-box;
@@ -78,7 +81,7 @@ html{
 	text-align: center;
 }
 .mission-text{
-	width: 280px;
+	width: 5rem;
 	margin: 0 auto;
 	z-index: 100;
 	position: absolute;
@@ -101,19 +104,17 @@ html{
 }
 .import{
 	position: relative;
-	top: 398px;
+	top: 7rem;
 	left: 0;
 	right: 0;
 	bottom: 0;
 }
 .import .imges{
 	width: 80%;
-	height: 170px;
+	height: 3.3rem;
 	display: block;
 	margin: 0 auto;
 	position: relative;
-
-	
 }
 .context{
 	width: 80%;
@@ -153,11 +154,11 @@ margin-right: 5px;
 	background:rgba(255,213,8,1);
 	margin: 0 auto;
 	border-radius:8px;
-	margin-top: 6px;
+	margin-top:.1rem;
 }
 #luggage{
-	width: 80%;
-	height: 170px;
+	width: 6rem;
+	height: 3.3rem;
 	display: block;
 	margin: 0 auto;
 background: url(../img/线框2.png) no-repeat;
@@ -281,19 +282,22 @@ margin-top: 25px;
 	opacity: 1;
 }
 .follow .result{
-	width: 80%;
-	height: 40%;
+	width: 6.5rem;
+	height: 6rem;
 	background: url(../img/jieshu.png) no-repeat;
 	background-size: 100% 100%;
 	margin: 0 auto;
 	font-size: 16px;
 	position: relative;
 	top: 20%;
-	box-sizing: border-box;
-	padding-left: 28px;
-	padding-right: 28px;
+	left: 0;
+	right: 0;
+}
+
+.result .result-context{
+	width: 5.8rem;
+	margin: 0 auto;
 	text-align: center;
-	line-height: 25px;
 }
 .follow .result span{
 	color: red;
@@ -317,17 +321,17 @@ margin-top: 25px;
 }
 
 .follow .result .obtain{
-	text-align: left;
-	padding-top: 3px;
+	text-align: center;
+	padding-top: .3rem;
 }
 .follow .result .earnings{
-	width:160px;
-	height:30px;
-	line-height: 30px;
-	font-size:14px;
+	width: 3.6rem;
+	height:.8rem;
+	line-height: .8rem;
+	font-size:.35rem;
 	background-color: #FFD508;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top:.2rem;
+	margin-bottom: .2rem;
 	font-weight: bold;
 }
 
@@ -347,17 +351,20 @@ margin-left: 5px;
 }
 
 .follow .anew{
-	width: 200px;
-	height: 50px;
+	width: 5rem;
+	height: 1.2rem;
 	margin: 0 auto;
 	position: relative;
 	top: 25%;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	background-color: #FFD508;
 	font-size: 20px;
-	line-height: 50px;
+	line-height: 1.2rem;
 	text-align: center;
 	color: #000000;
-	margin: 30px calc((375px - 180px)/2);
+	/* margin: 30px calc((375px - 180px)/2); */
 	font-weight: bold;
 	box-shadow: 0px 6px 10px rgb(133, 139, 108);
 	transition: box-shadow 0.3s;
@@ -425,6 +432,7 @@ margin-left: 5px;
 	transition: box-shadow 0.3s;
 }	
 
+/* 
 @media screen and (max-height:736px){
 	.imgse img{
 		height: 33%;
@@ -455,4 +463,4 @@ margin-left: 5px;
 }
 
 
-}
+} */

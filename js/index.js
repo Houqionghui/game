@@ -171,16 +171,19 @@ function awaitIng(){
  
     if(number==1){
       $('.follow .result').html(`
+      <div class="result-context">
       <div class="cyclo"> <span></span><span></span></div>
     <div class="title">恭喜两位用户完成了游戏！</div>
     <div class="earnings">您在游戏中的收益如下</div>
     <div class="decide">您决定分给对方<span>${give}</span>元,自己留下<span>${bemoney}</span>元,对方暂时得到<span>${zsmoney}</span>元。</div>
     <div class="return">对方决定返还给您<span>${zzmoney}</span>元</div>
     <div class="obtain"><div class="left"></div>您最终获得<span>${zhmoney}</span>元<div class="right"></div></div>
+      </div>
 
     `);
     }else if(number==2){
       $('.follow .result').html(`
+      <div class="result-context">
       <div class="cyclo"> <span></span><span></span></div>
     <div class="title">恭喜两位用户完成了游戏！</div>
     <div class="earnings">您在游戏中的收益如下</div>
@@ -188,6 +191,7 @@ function awaitIng(){
     <div class="return">您决定返还给对方<span>${give}</span>元</div>
     <div class="obtain"><div class="left"></div>您最终获得<span>${momentmoney}</span>元<div class="right"></div></div>
 
+      </div>
     `);
     }
 
