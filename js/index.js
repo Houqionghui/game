@@ -54,8 +54,7 @@ $(function () {
       $('.awaitIng').show();
       setTimeout(function () {
         $('.awaitIng').hide();
-        // let item=[0, 5, 10, 15, 30, 25, 30];
-        let item=[0];
+        let item=[0, 5, 10, 15, 30, 25, 30];
         let domItem = item[Math.floor(Math.random() * item.length)]; 
         opposite=Number(domItem);
         gain=opposite*3;
